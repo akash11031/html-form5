@@ -1,0 +1,79 @@
+/* *****************
+***global css *****
+*******************/
+/* google font linking */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+/* social media part */
+.social-media{
+ text-align: center;
+
+}
+
+.social-media ul li{
+  list-style-type: none;
+  display: inline-block;
+  background-color:blue;
+  width: 60px;
+  width: 60px;
+  text-align: center;
+  line-height: 65px;
+  border-radius:8px;
+  border: 1px solid blue;
+  transition: 0.5s;
+  margin-top: 10px;
+ 
+}
+
+.social-media ul li i{
+   color: aliceblue;
+   font-size: 25px;
+   
+}
+
+.social-media ul li:hover{
+    /* background: transparent;
+    border: 1px solid blue; */
+    transition: 0.5s;
+}
+
+.social-media ul li:hover i{
+    /* color: blue; */
+    transition: 0.5s;
+    /* transform: scale(1.5); */
+    transform: rotate(360deg);
+ }
+
+
+ /* possition css */
+
+ .main-box{
+    position: relative;
+    background-color: green;
+    height: 300px;
+    width: 600px;
+    margin-top: 10px;
+    margin-left: 320px;
+    
+ }
+
+ .child-box{
+   
+    position: absolute;
+    left: 140px;
+    top: 50px;
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+ }
